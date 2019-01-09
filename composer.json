@@ -1,0 +1,6 @@
+{
+    "require": {
+        "doctrine/dbal": "2.5.13",
+        "twig/twig": "^2.0"
+    }
+}
