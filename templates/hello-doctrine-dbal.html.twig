@@ -6,9 +6,9 @@
 </head>
 <body>
 
-    {# parcours de chacun des éléments du tableau `$students` #}
+    {# parcours de chacun des éléments du tableau `students` #}
     {% for student in students %}
-        {# à chaque itération de la boucle, la variable `$student` contient une ligne de la table #}
+        {# à chaque itération de la boucle, la variable `student` contient une ligne de la table #}
         {# chaque clé alpha-numérique représente une colonne de la table #}
         {{ student.id }}<br />
         {{ student.firstname }}<br />
